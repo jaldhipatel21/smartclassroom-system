@@ -1,0 +1,23 @@
+for installation
+first,
+______________________
+python -m venv .venv  |
+______________________|
+Activate the virtual environment:
+______________________________
+.venv\Scripts\activate        |in cmd
+source .venv/Scripts/activate | Bash
+.venv\Scripts\Activate.ps1    | Pawershall
+______________________________|
+
+after
+______________________________
+pip freeze > requirements.txt |
+______________________________|
+
+in requirement.txt, write packages 
+after in terminal 
+________________________________
+pip install -r requirements.txt |
+________________________________|
+
